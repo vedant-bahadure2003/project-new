@@ -100,7 +100,7 @@ export default function HomePage() {
               <input
                 type="text"
                 placeholder="xxxxx"
-                className="ml-1 text-black border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 text-base sm:text-lg md:text-xl"
+                className="ml-0 text-black border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 text-base sm:text-lg md:text-xl"
                 value={phoneNumber}
                 onChange={(e) => setPhoneNumber(e.target.value)}
               />
