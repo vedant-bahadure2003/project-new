@@ -39,7 +39,7 @@ export default function HomePage() {
           </button>
 
           {isOpen && (
-            <div className="absolute top-full right-0 mt-2 bg-white text-gray-800 shadow-lg rounded-lg w-[80vw] md:w-[60vw] z-50 p-6">
+            <div className="absolute top-full right-0 mt-2 bg-white text-gray-800 shadow-lg rounded-lg w-[80vw] sm:w-[60vw] z-50 p-6">
               <h3 className="text-xl font-bold mb-4 text-blue-700 border-b pb-2">
                 Top MBBS Universities
               </h3>
@@ -59,11 +59,11 @@ export default function HomePage() {
       </header>
 
       <section className="bg-gradient-to-b from-blue-900 to-white text-white">
-        <div className="container mx-auto py-12 px-6 flex flex-col md:flex-row items-center">
+        <div className="container mx-auto py-12 px-6 flex flex-col-reverse md:flex-row items-center">
           <div className="md:w-1/2 mb-6 md:mb-0">
-            <h1 className="text-4xl md:text-4xl font-bold mb-4">
-              Become a doctor with globally recognized universities Get
-              admission into “Top Medical University in Uzbekistan”
+            <h1 className="text-3xl md:text-4xl font-bold mb-4">
+              Become a doctor with globally recognized universities. Get
+              admission into “Top Medical University in Uzbekistan.”
             </h1>
             <br />
             <div>

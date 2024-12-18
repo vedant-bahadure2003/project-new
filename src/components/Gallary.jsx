@@ -22,7 +22,7 @@ const PhotoGallery = () => {
         {photos.map((photo, index) => (
           <div
             key={index}
-            className="rounded-xl overflow-hidden border  shadow-lg h-60 w-60"
+            className="rounded-xl overflow-hidden border shadow-lg h-60 w-60"
           >
             <img
               src={photo}

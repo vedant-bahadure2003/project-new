@@ -46,18 +46,20 @@ const Testimonials = () => {
         style={{ zIndex: 0 }}
       ></div>
 
-      <div className="max-w-7xl mx-auto text-center relative z-10">
+      <div className="max-w-7xl mx-auto text-center relative z-10 px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-semibold text-white mb-8">
           What They Say
         </h2>
         <p className="text-lg text-gray-300 mb-12">
           Listen to our successfully Placed Students
         </p>
-        <div className="flex justify-center space-x-8">
+
+        {/* Responsive Grid */}
+        <div className="flex flex-wrap justify-center gap-6">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="w-80 bg-white p-6 rounded-lg shadow-lg relative"
+              className="w-full sm:w-72 md:w-80 bg-white p-6 rounded-lg shadow-lg"
             >
               <img
                 src={testimonial.image}

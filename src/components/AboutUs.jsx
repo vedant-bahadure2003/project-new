@@ -8,7 +8,7 @@ const AboutUs = () => {
           Why Study MBBS in Uzbekistan?
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-white shadow-lg p-6 rounded-xl transition-transform transform hover:scale-105 hover:shadow-xl">
             <div className="flex items-center space-x-3 mb-4">
               <div className="p-3 bg-blue-100 rounded-full">
