@@ -92,16 +92,16 @@ export default function HomePage() {
             </h2>
 
             <div className="flex items-center mb-6">
-              <span className="text-blue-600 font-medium text-lg md:text-xl">
+              <span className="text-blue-600 font-medium text-base sm:text-lg md:text-xl">
                 Phone No:
               </span>
-              <span className="ml-2 text-gray-700 text-lg md:text-xl font-semibold">
+              <span className="ml-2 text-gray-700 text-base sm:text-lg md:text-xl font-semibold">
                 +91
               </span>
               <input
                 type="text"
                 placeholder="xxxxx"
-                className="ml-2 text-black border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 text-lg md:text-xl"
+                className="ml-2 text-black border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 text-base sm:text-lg md:text-xl"
                 value={phoneNumber}
                 onChange={(e) => setPhoneNumber(e.target.value)}
               />
