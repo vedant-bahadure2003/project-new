@@ -4,7 +4,7 @@ import { FaBookMedical } from "react-icons/fa6";
 export default function HomePage() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [phoneNumber, setPhoneNumber] = useState("");
-  const [isOpen, setIsOpen] = useState(false); // State for toggling dropdown
+  const [isOpen, setIsOpen] = useState(false);
 
   const universities = [
     "Vitebsk State Medical University",
@@ -25,14 +25,12 @@ export default function HomePage() {
 
   return (
     <div className="font-sans">
-      {/* Header Section */}
       <header className="bg-blue-900 text-white flex items-center justify-between p-4">
         <div className="text-2xl font-bold flex items-center">
           <FaBookMedical className="mr-3" />
           MediWorld Consultants
         </div>
         <div className="relative">
-          {/* Trigger Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700 focus:outline-none"
@@ -40,7 +38,6 @@ export default function HomePage() {
             Menu
           </button>
 
-          {/* Dropdown */}
           {isOpen && (
             <div className="absolute top-full right-0 mt-2 bg-white text-gray-800 shadow-lg rounded-lg w-[80vw] md:w-[60vw] z-50 p-6">
               <h3 className="text-xl font-bold mb-4 text-blue-700 border-b pb-2">
@@ -61,7 +58,6 @@ export default function HomePage() {
         </div>
       </header>
 
-      {/* Hero Section */}
       <section className="bg-gradient-to-b from-blue-900 to-white text-white">
         <div className="container mx-auto py-12 px-6 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-6 md:mb-0">
@@ -91,12 +87,10 @@ export default function HomePage() {
             </div>
           </div>
           <div className="max-w-sm mx-auto bg-white shadow-lg rounded-lg p-6 border border-gray-200">
-            {/* Heading */}
             <h2 className="text-lg md:text-xl font-bold text-gray-800 mb-4">
               International degree now in your budget
             </h2>
 
-            {/* Phone Number */}
             <div className="flex items-center mb-6">
               <span className="text-blue-600 font-medium text-lg md:text-xl">
                 Phone No:
@@ -113,7 +107,6 @@ export default function HomePage() {
               />
             </div>
 
-            {/* Button */}
             <button className="bg-blue-600 text-white font-medium py-2 px-4 w-full rounded-lg hover:bg-blue-700 transition duration-300">
               Book Your Free Counseling
             </button>

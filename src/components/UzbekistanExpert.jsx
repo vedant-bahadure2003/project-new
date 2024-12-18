@@ -4,14 +4,11 @@ const UzbekistanExpert = () => {
   return (
     <section className="bg-gradient-to-b from-gray-100 to-gray-50 py-12 px-4 md:px-8 lg:px-16">
       <div className="container mx-auto">
-        {/* Section Header */}
         <h2 className="text-4xl md:text-5xl font-extrabold text-center text-blue-700 mb-12 tracking-wide">
           Why Uzbekistan Expert?
         </h2>
 
-        {/* Features Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Feature Cards */}
           {[
             {
               title: "Best MBBS Education Consultants in India",

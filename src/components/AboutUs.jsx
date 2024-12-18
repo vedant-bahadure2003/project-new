@@ -4,14 +4,11 @@ const AboutUs = () => {
   return (
     <section className="bg-gradient-to-b from-gray-100 to-gray-50 py-12 px-6 md:px-16 lg:px-32">
       <div className="container mx-auto">
-        {/* Section Heading */}
         <h2 className="text-3xl md:text-4xl font-extrabold text-center text-blue-800 mb-10 tracking-wide">
           Why Study MBBS in Uzbekistan?
         </h2>
 
-        {/* Content Container */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Card 1 */}
           <div className="bg-white shadow-lg p-6 rounded-xl transition-transform transform hover:scale-105 hover:shadow-xl">
             <div className="flex items-center space-x-3 mb-4">
               <div className="p-3 bg-blue-100 rounded-full">
@@ -40,7 +37,6 @@ const AboutUs = () => {
             </p>
           </div>
 
-          {/* Card 2 */}
           <div className="bg-white shadow-lg p-6 rounded-xl transition-transform transform hover:scale-105 hover:shadow-xl">
             <div className="flex items-center space-x-3 mb-4">
               <div className="p-3 bg-green-100 rounded-full">
@@ -69,7 +65,6 @@ const AboutUs = () => {
             </p>
           </div>
 
-          {/* Card 3 */}
           <div className="bg-white shadow-lg p-6 rounded-xl transition-transform transform hover:scale-105 hover:shadow-xl">
             <div className="flex items-center space-x-3 mb-4">
               <div className="p-3 bg-red-100 rounded-full">
@@ -98,7 +93,6 @@ const AboutUs = () => {
             </p>
           </div>
 
-          {/* Card 4 */}
           <div className="bg-white shadow-lg p-6 rounded-xl transition-transform transform hover:scale-105 hover:shadow-xl">
             <div className="flex items-center space-x-3 mb-4">
               <div className="p-3 bg-purple-100 rounded-full">
@@ -126,7 +120,6 @@ const AboutUs = () => {
             </p>
           </div>
 
-          {/* Card 5 */}
           <div className="bg-white shadow-lg p-6 rounded-xl transition-transform transform hover:scale-105 hover:shadow-xl">
             <div className="flex items-center space-x-3 mb-4">
               <div className="p-3 bg-yellow-100 rounded-full">
@@ -155,7 +148,6 @@ const AboutUs = () => {
             </p>
           </div>
 
-          {/* Card 6 */}
           <div className="bg-white shadow-lg p-6 rounded-xl transition-transform transform hover:scale-105 hover:shadow-xl">
             <div className="flex items-center space-x-3 mb-4">
               <div className="p-3 bg-indigo-100 rounded-full">
@@ -185,7 +177,6 @@ const AboutUs = () => {
           </div>
         </div>
 
-        {/* Closing Line */}
         <div className="mt-10 text-center">
           <p className="text-lg text-gray-700">
             Join the growing community of international students thriving in

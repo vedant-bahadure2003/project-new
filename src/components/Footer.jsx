@@ -12,7 +12,6 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-blue-900 text-white pt-10 pb-6">
-      {/* Top Links */}
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-start gap-8 border-b border-gray-700 pb-8">
           <div>
@@ -72,9 +71,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Follow Us and Links */}
         <div className="flex flex-col md:flex-row justify-between items-center mt-6">
-          {/* Social Links */}
           <div className="flex items-center gap-4">
             <h3 className="font-semibold text-lg">Follow Us</h3>
             <div className="flex gap-3 text-2xl">
@@ -102,7 +99,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Terms & Policies */}
           <div className="flex flex-wrap gap-4 mt-4 md:mt-0 text-gray-300">
             <a href="#" className="hover:text-yellow-500">
               Terms
@@ -116,7 +112,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Blog */}
         <div className="text-center mt-6 text-gray-400">
           <p>
             <strong>Read our Blog:</strong>{" "}

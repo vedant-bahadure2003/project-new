@@ -4,7 +4,6 @@ const ContactUsSection = () => {
   return (
     <div className="bg-blue-50 py-14 px-8">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
-        {/* Left Section */}
         <div className="lg:col-span-1">
           <h2 className="text-4xl font-bold text-blue-800 mb-4">
             Why Connect with Us?
@@ -17,9 +16,7 @@ const ContactUsSection = () => {
           </p>
         </div>
 
-        {/* Right Cards Section */}
         <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Card 1 */}
           <div className="bg-white p-5 rounded-lg shadow-lg text-sm hover:shadow-xl transition-shadow duration-300">
             <div className="flex items-center mb-3">
               <span className="text-blue-600 text-3xl mr-3">🎓</span>
@@ -33,7 +30,6 @@ const ContactUsSection = () => {
             </p>
           </div>
 
-          {/* Card 2 */}
           <div className="bg-white p-5 rounded-lg shadow-lg text-sm hover:shadow-xl transition-shadow duration-300">
             <div className="flex items-center mb-3">
               <span className="text-blue-600 text-3xl mr-3">🗂️</span>
@@ -47,7 +43,6 @@ const ContactUsSection = () => {
             </p>
           </div>
 
-          {/* Card 3 */}
           <div className="bg-white p-5 rounded-lg shadow-lg text-sm hover:shadow-xl transition-shadow duration-300">
             <div className="flex items-center mb-3">
               <span className="text-blue-600 text-3xl mr-3">💵</span>
@@ -61,7 +56,6 @@ const ContactUsSection = () => {
             </p>
           </div>
 
-          {/* Card 4 */}
           <div className="bg-white p-5 rounded-lg shadow-lg text-sm hover:shadow-xl transition-shadow duration-300">
             <div className="flex items-center mb-3">
               <span className="text-blue-600 text-3xl mr-3">⚙️</span>
@@ -75,7 +69,6 @@ const ContactUsSection = () => {
             </p>
           </div>
 
-          {/* Card 5 */}
           <div className="bg-white p-5 rounded-lg shadow-lg text-sm hover:shadow-xl transition-shadow duration-300">
             <div className="flex items-center mb-3">
               <span className="text-blue-600 text-3xl mr-3">📄</span>
@@ -89,7 +82,6 @@ const ContactUsSection = () => {
             </p>
           </div>
 
-          {/* Card 6 */}
           <div className="bg-white p-5 rounded-lg shadow-lg text-sm hover:shadow-xl transition-shadow duration-300">
             <div className="flex items-center mb-3">
               <span className="text-blue-600 text-3xl mr-3">🌍</span>

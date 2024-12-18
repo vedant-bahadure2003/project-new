@@ -41,13 +41,11 @@ const Testimonials = () => {
         backgroundAttachment: "fixed",
       }}
     >
-      {/* Black overlay layer */}
       <div
         className="absolute inset-0 bg-black opacity-60"
         style={{ zIndex: 0 }}
       ></div>
 
-      {/* Content Section */}
       <div className="max-w-7xl mx-auto text-center relative z-10">
         <h2 className="text-3xl font-semibold text-white mb-8">
           What They Say

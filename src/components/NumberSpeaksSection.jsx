@@ -24,7 +24,6 @@ const stats = [
   },
 ];
 
-// Partner logos
 const partners = [
   {
     id: 1,
@@ -56,7 +55,6 @@ const partners = [
 const NumberSpeaksSection = () => {
   return (
     <section className="bg-blue-50 py-12 px-4 md:px-8 lg:px-16">
-      {/* Header Section */}
       <div className="text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-blue-800 mb-2">
           Number Speaks Everything For Us
@@ -66,7 +64,6 @@ const NumberSpeaksSection = () => {
         </p>
       </div>
 
-      {/* Statistics Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
         {stats.map((stat) => (
           <div
@@ -81,7 +78,6 @@ const NumberSpeaksSection = () => {
         ))}
       </div>
 
-      {/* Our Partners Section */}
       <div className="mt-16 text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Partners</h2>
         <p className="text-gray-600 mb-8">
@@ -104,14 +100,11 @@ const NumberSpeaksSection = () => {
         </div>
       </div>
 
-      {/* New Brochure Download Section */}
       <div className="bg-yellow-100 mt-12 rounded-lg shadow-lg flex flex-col md:flex-row items-center p-8 gap-6 relative">
-        {/* Left Image */}
         <div className="w-full md:w-1/3 flex justify-center">
           <BsFillFileEarmarkMedicalFill className="size-16" />
         </div>
 
-        {/* Center Text Section */}
         <div className="text-center md:text-left w-full md:w-1/3">
           <h3 className="text-2xl font-bold text-gray-800 mb-2 leading-snug">
             Want to know more about{" "}
@@ -123,7 +116,6 @@ const NumberSpeaksSection = () => {
           </p>
         </div>
 
-        {/* Right Form Section */}
         <div className="w-full md:w-1/3 flex flex-col md:flex-row items-center gap-2">
           <input
             type="text"
