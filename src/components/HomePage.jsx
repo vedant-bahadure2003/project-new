@@ -79,14 +79,13 @@ export default function HomePage() {
               </ul>
             </div>
             <br />
-            <br />
             <div className="flex space-x-4 mt-4">
               <button className="bg-white text-blue-900 px-6 py-2 rounded-full font-medium shadow hover:bg-gray-200">
                 Explore Courses
               </button>
             </div>
           </div>
-          <div className="max-w-sm mx-auto bg-white shadow-lg rounded-lg p-6 border border-gray-200">
+          <div className="max-w-xs sm:max-w-sm mx-auto bg-white shadow-lg rounded-lg p-4 border border-gray-200">
             <h2 className="text-lg md:text-xl font-bold text-gray-800 mb-4">
               International degree now in your budget
             </h2>
