@@ -37,7 +37,7 @@ const BlogGallery = () => {
   ];
 
   return (
-    <div className="bg-gray-50 py-10">
+    <div className="bg-white py-10">
       <div className="text-center mb-6">
         <h2 className="text-3xl font-bold">Our Latest Blog</h2>
         <p className="text-gray-500">

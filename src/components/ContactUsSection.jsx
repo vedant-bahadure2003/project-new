@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactUsSection = () => {
   return (
-    <div className="bg-blue-50 py-14 px-8">
+    <div className="bg-white py-14 px-8">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-1">
           <h2 className="text-4xl font-bold text-blue-800 mb-4">

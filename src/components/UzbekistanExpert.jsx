@@ -2,7 +2,7 @@ import React from "react";
 
 const UzbekistanExpert = () => {
   return (
-    <section className="bg-gradient-to-b from-gray-100 to-gray-50 py-12 px-4 md:px-8 lg:px-16">
+    <section className="bg-white py-12 px-4 md:px-8 lg:px-16">
       <div className="container mx-auto">
         <h2 className="text-4xl md:text-5xl font-extrabold text-center text-blue-700 mb-12 tracking-wide">
           Why Uzbekistan Expert?

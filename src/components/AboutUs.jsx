@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="bg-gradient-to-b from-gray-100 to-gray-50 py-12 px-6 md:px-16 lg:px-32">
+    <section className="bg-white py-12 px-6 md:px-16 lg:px-32">
       <div className="container mx-auto">
         <h2 className="text-3xl md:text-4xl font-extrabold text-center text-blue-800 mb-10 tracking-wide">
           Why Study MBBS in Uzbekistan?

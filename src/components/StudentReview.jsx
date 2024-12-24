@@ -32,7 +32,7 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <div
-      className="relative bg-gray-100 py-16"
+      className="relative bg-white py-16"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover",
